@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============================== Neolithic Research Tree ===================================-->
+	<!--================================= Brick Manufacturing =====================================-->
+
+	<ResearchProjectDef>
+		<defName>BrickManufacturing1</defName>
+		<label>Brick Manufacturing I</label>
+		<description>Unlocked Structures
+ - Mud Pit
+ - Mud Brick Cast
+ 
+Unlocked Resources 
+ - Mud
+ - Dried Mud Brick
+ - Wet Mud Brick
+ 
+Allows the creation of bricks and unlocks the following research groups:
+ - Wall Structures I
+ - Information Technologies I</description>
+		<baseCost>120</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BrickManufacturing2</defName>
+		<label>Brick Manufacturing II</label>
+		<description>Unlocked Structures
+ - Mud Pit
+ - Mud Brick Cast
+ 
+Unlocked Resources 
+ - Mud
+ - Dried Mud Brick
+ - Wet Mud Brick
+ 
+Allows the creation of bricks and unlocks the following research groups:
+ - Wall Structures I
+ - Information Technologies I</description>
+		<baseCost>120</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--================================= Plant Domestication =====================================-->
+
+	<ResearchProjectDef>
+		<defName>PlantDomestication1</defName>
+		<label>Plant Domestication I</label>
+		<description>Unlocked Resources
+ - Flax</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>PlantDomestication2</defName>
+		<label>Plant Domestication II</label>
+		<description>Unlocked Resources
+ - Flax</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>PlantDomestication3</defName>
+		<label>Plant Domestication III</label>
+		<description>Unlocked Resources
+ - Flax</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<!--================================= Biotechnology =====================================-->
+
+	<ResearchProjectDef>
+		<defName>Biotechnology1</defName>
+		<label>Biotechnology I</label>
+		<description>Unlocked Structures
+ - Neolithic Fermenter</description>
+ 
+Unlocked Resources
+ - Neolithic Beer
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Biotechnology2</defName>
+		<label>Biotechnology II</label>
+		<description>Unlocked Structures
+ - Neolithic Fermenter</description>
+ 
+Unlocked Resources
+ - Neolithic Beer
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Biotechnology3</defName>
+		<label>Biotechnology III</label>
+		<description>Unlocked Structures
+ - Neolithic Fermenter</description>
+ 
+Unlocked Resources
+ - Neolithic Beer
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<!--================================= Animal Domestication =====================================-->
+
+	<ResearchProjectDef>
+		<defName>AnimalDomestication1</defName>
+		<label>Animal Domestication I</label>
+		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AnimalDomestication2</defName>
+		<label>Animal Domestication II</label>
+		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AnimalDomestication3</defName>
+		<label>Animal Domestication III</label>
+		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<!--================================= Wall Structures =====================================-->
+
+	<ResearchProjectDef>
+		<defName>WallStructures1</defName>
+		<label>Wall Structures I</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>BrickManufacturing1</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>WallStructures2</defName>
+		<label>Wall Structures II</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>BrickManufacturing1</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>WallStructures3</defName>
+		<label>Wall Structures III</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>BrickManufacturing1</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

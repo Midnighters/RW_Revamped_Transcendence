@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+    <!--============================== Neolithic Era Furniture ==============================-->
+	
+	<!--== Beds ==-->
+	
+  <ThingDef ParentName="BuildingBase">
+    <defName>HayBed</defName>
+    <label>Hay Bed</label>
+	<Description>A relatively warm bed made out of Hay.</Description>
+    <ThingClass>Building_Bed</ThingClass>
+	<graphicData>
+	  <texPath>Things/Neolithic/Beds/BedHay</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <Comfort>0.4</Comfort>
+    </statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>False</useHitPoints>
+    <Size>(1,2)</Size>
+    <DesignationCategory>RW_Revamped_Neolithic_Furniture</DesignationCategory>
+    <Passability>Standable</Passability>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <building>
+      <Bed_ShowSleeperBody>True</Bed_ShowSleeperBody>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+    </building>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+  </ThingDef>
+	
+  <ThingDef ParentName="BuildingBase">
+    <defName>HideBed</defName>
+    <label>Hide Bed</label>
+	<Description>A relatively warm bed made out of a mixture of Rocks, Leather, and other animal products.</Description>
+    <ThingClass>Building_Bed</ThingClass>
+	<graphicData>
+	  <texPath>Things/Neolithic/Beds/BedHide</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <statBases>
+      <WorkToBuild>25</WorkToBuild>
+      <Comfort>0.4</Comfort>
+    </statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>False</useHitPoints>
+    <Size>(1,2)</Size>
+    <stuffCategories>
+	  <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <DesignationCategory>RW_Revamped_Neolithic_Furniture</DesignationCategory>
+    <Passability>Standable</Passability>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <building>
+      <Bed_ShowSleeperBody>True</Bed_ShowSleeperBody>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+    </building>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+  </ThingDef>
+  
+</Buildings>
