@@ -1,2 +1,11 @@
-# RW_Revamped_Transcendence
-This GitHub page is intended for all files pertaining to RimWorld Revamped - The Transcendence
+# Rimworld Revamped
+### The Transcendence
+
+
+
+####Development Team
+| DaemonDeathAngel |    donoya    |
+| ---------------- |:------------:|
+| Original Concept |  C# Coding   |
+| Lore Management  |  Ideas       |
+| XML Coding       |  XML Help    |
