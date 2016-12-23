@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-	<ModMetaData>
-		<name>Override Injector</name>
-		<author>AlcoholV</author>
-		<url>https://ludeon.com/forums/index.php?topic=27551.0</url>
-		<targetVersion>0.15.0000</targetVersion>
-		<description>Override defs without changing the original defs xml.
-</description>
-</ModMetaData>
