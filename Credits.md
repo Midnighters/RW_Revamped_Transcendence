@@ -14,3 +14,5 @@ Permission to use Textures from Superior Crafting
 Permission to use Textures from Clutter
 ###Wivex
 Permission to use Textures from Rimworld Ascension (Dead Project)
+###Fluffy
+Architect Sense - Subcatgeorizing Assembly
