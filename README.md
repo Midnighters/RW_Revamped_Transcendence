@@ -3,8 +3,7 @@
 
 [![Version](https://img.shields.io/badge/Rimworld-A16-green.svg)]
 (http://rimworldgame.com/)
-[![License](https://img.shields.io/badge/license-Custom-blue.svg)]
-(https://ludeon.com/forums/index.php?topic=11171.msg111243#msg111243)
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 Advance your way through the ages, learning and growing until you reach the ultimate form, Transcendent!
 
