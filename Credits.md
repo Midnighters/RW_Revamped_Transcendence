@@ -18,3 +18,5 @@ Permission to use Textures from Rimworld Ascension (Dead Project)
 Architect Sense - Subcatgeorizing Assembly
 ###SuperCaffeineDude
 Rimworld Sprites Resources|Weapons
+###A Friend
+Texture Pack
