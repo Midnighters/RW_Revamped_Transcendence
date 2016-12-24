@@ -16,3 +16,5 @@ Permission to use Textures from Clutter
 Permission to use Textures from Rimworld Ascension (Dead Project)
 ###Fluffy
 Architect Sense - Subcatgeorizing Assembly
+###SuperCaffeineDude
+Rimworld Sprites Resources|Weapons
