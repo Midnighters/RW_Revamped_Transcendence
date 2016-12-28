@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ArchitectSense.DesignationSubCategoryDef>
+    	<defName>SubCategory_Neolithic</defName>
+    	<label>Neolithic</label>
+    	<description>Neolithic Era Furniture</description>
+    	<!-- graphicData is optional, if not set the icon for the first def listed below will be borrowed. -->
+    	<graphicData>
+			<texPath>Things/Neolithic/Chairs/StoolNeolithic</texPath>
+		</graphicData>
+    	<defNames>
+            <li>HideBed</li>
+            <li>HayBed</li>
+    	</defNames>
+    	<designationCategory>Furniture</designationCategory>
+    	<!-- Debug flag prints some extra information after map is loaded (while subcategories are being created) -->
+    	<debug>true</debug>
+    </ArchitectSense.DesignationSubCategoryDef>
+
+
+</Defs>

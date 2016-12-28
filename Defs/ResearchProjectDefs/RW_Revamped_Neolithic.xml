@@ -5,7 +5,7 @@
 	<!--================================= Brick Manufacturing =====================================-->
 
 	<ResearchProjectDef>
-		<defName>BrickManufacturing1</defName>
+		<defName>RWR_TT_BrickManufacturing1</defName>
 		<label>Brick Manufacturing I</label>
 		<description>Unlocked Structures
  - Mud Pit
@@ -16,197 +16,375 @@ Unlocked Resources
  - Dried Mud Brick
  - Wet Mud Brick
  
-Allows the creation of bricks and unlocks the following research groups:
+Unlocked Research
  - Wall Structures I
  - Information Technologies I</description>
 		<baseCost>120</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>BrickManufacturing2</defName>
+		<defName>RWR_TT_BrickManufacturing2</defName>
 		<label>Brick Manufacturing II</label>
 		<description>Unlocked Structures
- - Mud Pit
- - Mud Brick Cast
+ - Kiln
  
 Unlocked Resources 
- - Mud
- - Dried Mud Brick
- - Wet Mud Brick
+ - Fired Mud Brick
+ - Fired Clay Brick
  
-Allows the creation of bricks and unlocks the following research groups:
- - Wall Structures I
- - Information Technologies I</description>
-		<baseCost>120</baseCost>
+Unlocked Research
+ - Wall Structures II</description>
+		<baseCost>240</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_WallStructures1</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
+	
 	
 	<!--================================= Plant Domestication =====================================-->
 
 	<ResearchProjectDef>
-		<defName>PlantDomestication1</defName>
+		<defName>RWR_TT_PlantDomestication1</defName>
 		<label>Plant Domestication I</label>
 		<description>Unlocked Resources
- - Flax</description>
+ - Flax
+ 
+Unlocked Research
+ - Cultivation I
+ - Plant Domestication II</description>
 		<baseCost>100</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2.25</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-		<defName>PlantDomestication2</defName>
+		<defName>RWR_TT_PlantDomestication2</defName>
 		<label>Plant Domestication II</label>
 		<description>Unlocked Resources
- - Flax</description>
-		<baseCost>100</baseCost>
+ - Cotton
+ 
+Unlocked Research
+ - Plant Domestication III</description>
+		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_PlantDomestication1</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-		<defName>PlantDomestication3</defName>
+		<defName>RWR_TT_PlantDomestication3</defName>
 		<label>Plant Domestication III</label>
 		<description>Unlocked Resources
- - Flax</description>
-		<baseCost>100</baseCost>
+ - Grapes
+ 
+Unlocked Research
+ - Biotechnology III</description>
+		<baseCost>450</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_PlantDomestication2</li>
+			<li>RWR_TT_Cultivation3</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>1.75</researchViewY>
 	</ResearchProjectDef>
 
 	<!--================================= Biotechnology =====================================-->
 
 	<ResearchProjectDef>
-		<defName>Biotechnology1</defName>
+		<defName>RWR_TT_Biotechnology1</defName>
 		<label>Biotechnology I</label>
 		<description>Unlocked Structures
- - Neolithic Fermenter</description>
+ - Neolithic Fermenter
  
 Unlocked Resources
  - Neolithic Beer
+ 
+Unlocked Research
+ - Biotechnology I</description>
 		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Biotechnology2</defName>
+		<defName>RWR_TT_Biotechnology2</defName>
 		<label>Biotechnology II</label>
-		<description>Unlocked Structures
- - Neolithic Fermenter</description>
+		<description>Unlocked Resources
+ - Yogurt
+ - Cheese
  
-Unlocked Resources
- - Neolithic Beer
-		<baseCost>250</baseCost>
+Unlocked Research
+ - Biotechnology III</description>
+		<baseCost>500</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_Biotechnology1</li>
+			<li>RWR_TT_AnimalDomestication3</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-		<defName>Biotechnology3</defName>
+		<defName>RWR_TT_Biotechnology3</defName>
 		<label>Biotechnology III</label>
-		<description>Unlocked Structures
- - Neolithic Fermenter</description>
+		<description>Unlocked Resources
+ - Early Wine
  
-Unlocked Resources
- - Neolithic Beer
+Unlocked Research
+- Bronze Age</description>
 		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_Biotechnology2</li>
+			<li>RWR_TT_PlantDomestication3</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 	<!--================================= Animal Domestication =====================================-->
 
 	<ResearchProjectDef>
-		<defName>AnimalDomestication1</defName>
+		<defName>RWR_TT_AnimalDomestication1</defName>
 		<label>Animal Domestication I</label>
 		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
 		<baseCost>180</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
 		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>0.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>AnimalDomestication2</defName>
+		<defName>RWR_TT_AnimalDomestication2</defName>
 		<label>Animal Domestication II</label>
 		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
-		<baseCost>180</baseCost>
+		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_AnimalDomestication1</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>AnimalDomestication3</defName>
+		<defName>RWR_TT_AnimalDomestication3</defName>
 		<label>Animal Domestication III</label>
 		<description>Your colonists will learn how to domesticize basic animals such as cows, and pigs.</description>
-		<baseCost>180</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>RWR_TT_AnimalDomestication2</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.25</researchViewY>
 	</ResearchProjectDef>
 
 	<!--================================= Wall Structures =====================================-->
 
 	<ResearchProjectDef>
-		<defName>WallStructures1</defName>
+		<defName>RWR_TT_WallStructures1</defName>
 		<label>Wall Structures I</label>
 		<description>Unlocked Structures
  - Mud Walls
  
-Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+Unlocked Research
  - Brick Manufacturing II
  - Food Processing I</description>
-		<baseCost>180</baseCost>
+		<baseCost>100</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>
-			<li>BrickManufacturing1</li>
+			<li>RWR_TT_BrickManufacturing1</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
-
+	
 	<ResearchProjectDef>
-		<defName>WallStructures2</defName>
+		<defName>RWR_TT_WallStructures2</defName>
 		<label>Wall Structures II</label>
 		<description>Unlocked Structures
+ - Mud Brick Walls
+ 
+Unlocked Research
+ - Cultivation I
+ - Wall Structures III</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_BrickManufacturing2</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.25</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_WallStructures3</defName>
+		<label>Wall Structures III</label>
+		<description>Unlocked Structures
+ - Log Fence
+ 
+Unlocked Research
+ - Wall Structures IV</description>
+		<baseCost>260</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_WallStructures2</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>3.75</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_WallStructures4</defName>
+		<label>Wall Structures IV</label>
+		<description>Unlocked Structures
+ - Stone Chunk Wall</description>
+		<baseCost>360</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_WallStructures3</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>3.75</researchViewY>
+	</ResearchProjectDef>	
+	
+	<!--================================= Information Technology =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_InformationTechnology1</defName>
+		<label>Information Technology I</label>
+		<description>Unlocked Resource
+ - Research Speed Boost</description>
+		<baseCost>75</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_BrickManufacturing1</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4.25</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--================================= Food Processing =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_FoodProcessing1</defName>
+		<label>Food Processing I</label>
+		<description>Unlocked Structures
+ - Storage Pit
+ - Fire Pit
+ 
+Unlocked Research
+ - Meals I
+ - Alloy Metallurgy I</description>
+		<baseCost>180</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_WallStructures1</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4.25</researchViewY>
+	</ResearchProjectDef>
+	
+	
+	<!--================================= Food Processing =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_Meals1</defName>
+		<label>Meals I</label>
+		<description>Unlocked Resources
+ - Simple Meals</description>
+		<baseCost>175</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_FoodProcessing1</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+		
+	<!--================================= Alloy Metallurgy =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_Alloymetallurgy1</defName>
+		<label>Alloy Metallurgy I</label>
+		<description>Unlocked Structures
+ - Crucible
+ 
+Unlocked Resources
+ - Arsenic
+ - Bronze Bar
+ 
+Unlocked Research
+ - Mining Technology I
+ - Metal Manufacturing I</description>
+		<baseCost>210</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_FoodProcessing1</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4.75</researchViewY>
+	</ResearchProjectDef>
+		
+	<!--================================= Mining Technology =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_MiningTechnology1</defName>
+		<label>Mining Technology I</label>
+		<description>Unlocked Structures
  - Mud Walls
  
 Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
  - Brick Manufacturing II
  - Food Processing I</description>
-		<baseCost>180</baseCost>
+		<baseCost>225</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>
-			<li>BrickManufacturing1</li>
+			<li>RWR_TT_Alloymetallurgy1</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
-	</ResearchProjectDef>
-
+		<researchViewX>4</researchViewX>
+		<researchViewY>4.25</researchViewY>
+	</ResearchProjectDef>		
+	
+	<!--================================= Metal Manufacturing =====================================-->
+	
 	<ResearchProjectDef>
-		<defName>WallStructures3</defName>
-		<label>Wall Structures III</label>
+		<defName>RWR_TT_MetalManufacturing1</defName>
+		<label>Metal Manufacturing I</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_Alloymetallurgy1</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>5.25</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--================================= Cultivation =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_Cultivation1</defName>
+		<label>Cultivation I</label>
 		<description>Unlocked Structures
  - Mud Walls
  
@@ -216,10 +394,87 @@ Allows your colony to learn the information to build Mud Walls and unlocks the f
 		<baseCost>180</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>
-			<li>BrickManufacturing1</li>
+			<li>RWR_TT_WallStructures2</li>
+			<li>RWR_TT_PlantDomestication1</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2.75</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_Cultivation2</defName>
+		<label>Cultivation II</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>275</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_Cultivation1</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2.75</researchViewY>
+	</ResearchProjectDef>	
+		
+	<ResearchProjectDef>
+		<defName>RWR_TT_Cultivation3</defName>
+		<label>Cultivation II</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_Cultivation2</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>2.25</researchViewY>
+	</ResearchProjectDef>	
+	
+	<!--================================= Transport Technology =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_TransportTechnology1</defName>
+		<label>Transport Technology I</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_Cultivation2</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--================================= Cloth Manufacturing =====================================-->
+	
+	<ResearchProjectDef>
+		<defName>RWR_TT_ClothManufacturing1</defName>
+		<label>Cloth Manufacturing I</label>
+		<description>Unlocked Structures
+ - Mud Walls
+ 
+Allows your colony to learn the information to build Mud Walls and unlocks the following research groups:
+ - Brick Manufacturing II
+ - Food Processing I</description>
+		<baseCost>210</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>RWR_TT_PlantDomestication1</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
-	</ResearchProjectDef>
+		<researchViewY>1.75</researchViewY>
+	</ResearchProjectDef>	
 
 </Defs>

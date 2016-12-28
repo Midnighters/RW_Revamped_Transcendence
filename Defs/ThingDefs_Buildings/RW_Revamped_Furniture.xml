@@ -23,7 +23,7 @@
 		<scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>False</useHitPoints>
     <Size>(1,2)</Size>
-    <DesignationCategory>RW_Revamped_Neolithic_Furniture</DesignationCategory>
+    <DesignationCategory>Furniture</DesignationCategory>
     <Passability>Standable</Passability>
     <DrawGUIOverlay>True</DrawGUIOverlay>
     <building>
@@ -63,7 +63,7 @@
     <costList>
       <Steel>10</Steel>
     </costList>
-    <DesignationCategory>RW_Revamped_Neolithic_Furniture</DesignationCategory>
+    <DesignationCategory>Furniture</DesignationCategory>
     <Passability>Standable</Passability>
     <DrawGUIOverlay>True</DrawGUIOverlay>
     <building>

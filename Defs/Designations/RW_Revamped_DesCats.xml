@@ -2,9 +2,9 @@
 <Defs>
 
   <DesignationCategoryDef>
-    <DefName>RW_Revamped_Neolithic_Furniture</DefName>
-    <label>[N] Furniture</label>
-    <description>Neolithic Era Furniture</description>
+    <DefName>Furniture</DefName>
+    <label>furniture</label>
+    <description>Small constructions.</description>
     <order>500</order>
     <specialDesignatorClasses>
       <li>Designator_Cancel</li>
@@ -13,142 +13,10 @@
   </DesignationCategoryDef>
   
   <DesignationCategoryDef>
-    <DefName>RW_Revamped_Neolithic_Structures</DefName>
-    <label>[N] Structures</label>
-    <description>Neolithic Era Structures</description>
+    <DefName>Structure</DefName>
+    <label>structure</label>
+    <description>Structural constructions like walls and power cables.</description>
     <order>490</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Bronze_Furniture</DefName>
-    <label>[B] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>480</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Bronze_Structures</DefName>
-    <label>[B] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>470</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Classical_Furniture</DefName>
-    <label>[C] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>460</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Classical_Structures</DefName>
-    <label>[C] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>450</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Medieval_Furniture</DefName>
-    <label>[M] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>440</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Medieval_Structures</DefName>
-    <label>[M] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>430</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_EarlyRimworld_Furniture</DefName>
-    <label>[E] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>420</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_EarlyRimworld_Structures</DefName>
-    <label>[E] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>410</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Industrial_Furniture</DefName>
-    <label>[I] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>400</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Industrial_Structures</DefName>
-    <label>[I] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>390</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Rimworld_Furniture</DefName>
-    <label>[R] Furniture</label>
-    <description>Bronze Era Buildings.</description>
-    <order>380</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-  
-  <DesignationCategoryDef>
-    <DefName>RW_Revamped_Rimworld_Structures</DefName>
-    <label>[R] Structures</label>
-    <description>Bronze Era Buildings.</description>
-    <order>370</order>
     <specialDesignatorClasses>
       <li>Designator_Cancel</li>
       <li>Designator_Deconstruct</li>
@@ -180,7 +48,7 @@
       <li>Designator_PlanRemove</li> 
     </specialDesignatorClasses>
   </DesignationCategoryDef>
-  
+   
   <DesignationCategoryDef>
     <DefName>Zone</DefName>
     <label>zone/Area</label>
@@ -207,32 +75,10 @@
   </DesignationCategoryDef>
 
   <DesignationCategoryDef>
-    <DefName>Structure</DefName>
-    <label>structure</label>
-    <description>Structural constructions like walls and power cables.</description>
-    <order>90</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-
-  <DesignationCategoryDef>
     <DefName>Production</DefName>
     <label>production</label>
     <description>Structures used for producting goods.</description>
     <order>80</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-  </DesignationCategoryDef>
-
-  <DesignationCategoryDef>
-    <DefName>Furniture</DefName>
-    <label>furniture</label>
-    <description>Small constructions.</description>
-    <order>70</order>
     <specialDesignatorClasses>
       <li>Designator_Cancel</li>
       <li>Designator_Deconstruct</li>
